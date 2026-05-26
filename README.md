@@ -6,13 +6,11 @@ An interactive real-time Mandelbrot set explorer rendered entirely on the GPU vi
 
 ## The most interesting  samples (with modified  complex coefficients)
 
-![MandelbrotSet_0NBBK4lLJk.png](gallery/MandelbrotSet_0NBBK4lLJk.png)
-![MandelbrotSet_4e9tX9ACET.png](gallery/MandelbrotSet_4e9tX9ACET.png)
-![MandelbrotSet_5I6TRohsex.png](gallery/MandelbrotSet_5I6TRohsex.png)
-![MandelbrotSet_AovYz4CPTD.png](gallery/MandelbrotSet_AovYz4CPTD.png)
-![MandelbrotSet_G8ovfcap5G.png](gallery/MandelbrotSet_G8ovfcap5G.png)
-![MandelbrotSet_RTUjF6bJAK.png](gallery/MandelbrotSet_RTUjF6bJAK.png)
-![MandelbrotSet_xKMu0KPwFZ.png](gallery/MandelbrotSet_xKMu0KPwFZ.png)
+| ![MandelbrotSet_0NBBK4lLJk.png](gallery/MandelbrotSet_0NBBK4lLJk.png) | ![MandelbrotSet_4e9tX9ACET.png](gallery/MandelbrotSet_4e9tX9ACET.png) |
+|---|-----------------------------------------------------------------------|
+| ![MandelbrotSet_AovYz4CPTD.png](gallery/MandelbrotSet_AovYz4CPTD.png) | ![MandelbrotSet_G8ovfcap5G.png](gallery/MandelbrotSet_G8ovfcap5G.png) |
+| ![MandelbrotSet_RTUjF6bJAK.png](gallery/MandelbrotSet_RTUjF6bJAK.png) | ![MandelbrotSet_xKMu0KPwFZ.png](gallery/MandelbrotSet_xKMu0KPwFZ.png) |
+
 
 ---
 

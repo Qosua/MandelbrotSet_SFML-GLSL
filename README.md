@@ -4,12 +4,12 @@ An interactive real-time Mandelbrot set explorer rendered entirely on the GPU vi
 
 ---
 
-## The most interesting  samples (with modified  complex coefficients)
+## The most interesting samples
 
 | ![MandelbrotSet_0NBBK4lLJk.png](gallery/MandelbrotSet_0NBBK4lLJk.png) | ![MandelbrotSet_4e9tX9ACET.png](gallery/MandelbrotSet_4e9tX9ACET.png) |
 |---|-----------------------------------------------------------------------|
 | ![MandelbrotSet_AovYz4CPTD.png](gallery/MandelbrotSet_AovYz4CPTD.png) | ![MandelbrotSet_G8ovfcap5G.png](gallery/MandelbrotSet_G8ovfcap5G.png) |
-| ![MandelbrotSet_RTUjF6bJAK.png](gallery/MandelbrotSet_RTUjF6bJAK.png) | ![MandelbrotSet_xKMu0KPwFZ.png](gallery/MandelbrotSet_xKMu0KPwFZ.png) |
+| ![MandelbrotSet_RTUjF6bJAK.png](gallery/MandelbrotSet_RTUjF6bJAK.png) | ![MandelbrotSet_QyTKojstcl.png](gallery/MandelbrotSet_QyTKojstcl.png) |
 
 
 ---
@@ -106,4 +106,4 @@ Each frame, a full-screen `sf::RectangleShape` is drawn with the fragment shader
 
 ## License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.

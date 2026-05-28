@@ -40,8 +40,6 @@ An interactive real-time Mandelbrot set explorer rendered entirely on the GPU vi
 | C++ compiler | C++17 (MSVC, GCC, Clang) |
 | SFML | 3.x |
 
-> **Note (Windows):** the project links against `dwmapi` for the dark title bar. This is Windows-only; you may need to remove that block from `main.cpp` when building on Linux/macOS.
-
 ### Steps
 
 ```bash

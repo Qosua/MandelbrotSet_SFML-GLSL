@@ -11,20 +11,6 @@ An interactive real-time Mandelbrot set explorer rendered entirely on the GPU vi
 | ![MandelbrotSet_AovYz4CPTD.png](gallery/MandelbrotSet_AovYz4CPTD.png) | ![MandelbrotSet_G8ovfcap5G.png](gallery/MandelbrotSet_G8ovfcap5G.png) |
 | ![MandelbrotSet_RTUjF6bJAK.png](gallery/MandelbrotSet_RTUjF6bJAK.png) | ![MandelbrotSet_QyTKojstcl.png](gallery/MandelbrotSet_QyTKojstcl.png) |
 
-
----
-
-## Features
-
-- **GPU-accelerated rendering** - the entire fractal is computed per-frame in a GLSL fragment shader
-- **Smooth colour palette** - cosine-based RGB colouring with phase offsets for vivid gradients
-- **Real-time interaction** - zoom, pan and tweak parameters without any recompilation
-- **Adjustable iteration depth** - trade off detail vs. performance on the fly
-- **Generalised iteration rule** - modify the exponents of the complex map to explore Multibrot-like variants
-- **Custom initial Z** - shift the starting point of the iteration to produce Julia-like distortions
-- **Screenshot capture** - save the current view to `screenshot.png` with a single keypress
-- **Dark title bar** on Windows (DWM integration)
-
 ---
 
 ## Controls
@@ -82,25 +68,6 @@ MandelbrotSet_SFML-GLSL/
 ├── .clang-format             # Code style configuration
 └── gallery/                  # Screenshots and preview images
 ```
-
----
-
-## How It Works
-
-Each frame, a full-screen `sf::RectangleShape` is drawn with the fragment shader applied. For every pixel the shader:
-
-1. Maps screen coordinates to the complex plane (accounting for zoom and offset).
-2. Runs the generalised iteration: `z → Q2·(x²−y²) + c.x, Q1·x·y + c.y` up to `iterCount` times.
-3. Checks the escape condition `|z|² > edgeParam`.
-4. Maps the normalised iteration count `t` through a cosine palette to produce the final colour.
-
----
-
-## Dependencies
-
-- [SFML 3](https://www.sfml-dev.org/) - window management, rendering, event handling, shader API
-- OpenGL / GLSL - GPU fragment shader execution (provided by the system driver)
-- `dwmapi` (Windows only) - dark mode title bar
 
 ---
 

@@ -13,12 +13,14 @@ int main() {
 
     sf::RenderWindow window(sf::VideoMode(sf::Vector2u(1750, 1000)), "Mandelbrot set");
     sf::RectangleShape screen(sf::Vector2f(1750, 1000));
-
+    
+#ifdef _WIN32
     HWND hwnd = window.getNativeHandle();
     BOOL dark = TRUE;
     COLORREF titleBarColor = 0x00000000;
     DwmSetWindowAttribute(hwnd, DWMWA_USE_IMMERSIVE_DARK_MODE, &dark, sizeof(dark));
     DwmSetWindowAttribute(hwnd, DWMWA_CAPTION_COLOR, &titleBarColor, sizeof(titleBarColor));
+#endif
 
     window.setVerticalSyncEnabled(true);
 

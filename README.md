@@ -28,8 +28,6 @@ An interactive real-time Mandelbrot set explorer rendered entirely on the GPU vi
 | **Backspace** | Reset all parameters to defaults |
 | **F2** | Save screenshot to `screenshot.png` |
 
-> All pan and parameter adjustments are **zoom-aware** - the step size scales with the current zoom level so the controls always feel proportional.
-
 ---
 
 ## Building
@@ -65,7 +63,6 @@ MandelbrotSet_SFML-GLSL/
 ├── main.cpp                  # Application entry point — window, events, uniforms
 ├── mandelbrotShader.frag     # GLSL fragment shader — fractal maths & colouring
 ├── CMakeLists.txt            # CMake build script
-├── .clang-format             # Code style configuration
 └── gallery/                  # Screenshots and preview images
 ```
 
